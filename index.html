@@ -1,48 +1,29 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>댕댕이 사진 전시회</title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="Class/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+<meta charset="utf-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
 
-    <script src="scripts/jquery-3.3.1.min.js"></script>
-    <script src="Scripts/scripts.js"></script>
+</script>
 </head>
 <body>
-<div class="header">
-    <div class="h-container">
-        <div class="utility">
-            <ul>
-                <li><a href="#">로그인</a></li>
-                <li><a href="#">배송조회</a></li>
-                <li><a href="#">마이페이지</a></li>
-                <li><a href="#">Language</a></li>
-            </ul>
-        </div>
-        <h1><a href="#l"><img src="Png/logo.png" alt="logo" class="logo" title="logo"></a></h1>
-        <div class="gnb">
-            <ul>
-                <li><a href="msg.html">댕댕이보기</a></li>
-                <li><a href="#">댕댕이찾기</a></li>
-                <li><a href="#">종류소개</a></li>
-                <li><a href="#">고객지원</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="section">
-    <div class="image_map">
-        <img src="image_map.png" alt="image map" width="1024px" title="image map" usemap="#image map">
-        <map name="image map">
-            <area shape="rect" coords="0,0,323,455" style="outline:none" href="#" target="_self" title="menu1">
-            <area shape="rect" coords="349,0,673,454" style="outline:none" href="#" target="_self" title="menu2">
-            <area shape="rect" coords="702,0,1023,457" style="outline:none" href="#" target="_blank" title="menu3">
-        </map>
-    </div>[]
-</div>
-<div class="footer">
-</div>
+	<form id="form-register" action="index.jsp"> <!-- index.jsp 호출 -->
+		  <div class="test0">숫자 1</div>
+          <input name= "name1" id="msg0" type="number" value="0" placeholder="계좌 번호"/>
+          <div class="txt-warning"></div>
+
+		  <div class="test1">숫자 2</div>
+          <input name= "name2" id="msg2" type="number" value="0" placeholder="입금액"/>
+          <div class="txt-warning"></div>
+
+
+        <div></div>
+
+
+       <input type="submit" value="덧셈"/>
+    </form>
+
 </body>
 </html>
